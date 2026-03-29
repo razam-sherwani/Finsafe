@@ -1,24 +1,24 @@
 # FinSafe
 
-FinSafe is a cross-platform personal finance app built with Flutter. It helps students track income and expenses, see balances and spending patterns, set budgets and savings goals, generate shareable PDF reports, and get contextual guidance—including optional bank linking (Plaid), receipt capture, and an in-app assistant (Fineas).
+<div align="center">
+  <div style="display:inline-block;background-color:#ffffff;padding:24px 40px;border-radius:12px;">
+    <img src="assets/Logo.png" alt="FinSafe logo" width="200" />
+  </div>
+</div>
 
-![FinSafe](docs/readme/image1.png)
+FinSafe is a cross-platform personal finance app built with Flutter. It helps students track income and expenses, see balances and spending patterns, set budgets and savings goals, generate shareable PDF reports, and get contextual guidance—including optional bank linking (Plaid), receipt capture, and an in-app assistant (Fineas).
 
 ## Screenshots
 
-| Welcome | Home | Transactions |
-| :---: | :---: | :---: |
-| ![Welcome](docs/readme/image3.png) | ![Home](docs/readme/image7.png) | ![Transactions](docs/readme/image8.png) |
+_Onboarding and sign-in, then core money flows: activity, budgets, goals, and reports._
 
-| Reports | Analysis | Spending & trends |
+| Welcome | Sign in | Transactions |
 | :---: | :---: | :---: |
-| ![Reports](docs/readme/image12.png) | ![Analysis](docs/readme/image10.png) | ![Spending](docs/readme/image11.png) |
+| ![Welcome](docs/readme/Welcome.png) | ![Sign in](docs/readme/Log%20in.png) | ![Transactions](docs/readme/TransactionsView1.png) |
 
-| Budgets & goals | Fineas assistant | Settings |
+| Budgeting | Saving goals | Reports |
 | :---: | :---: | :---: |
-| ![Budgets](docs/readme/image13.png) | ![Fineas](docs/readme/image15.png) | ![Settings](docs/readme/image16.png) |
-
-Additional UI captures (authentication, alternate transaction and budget views, and supplementary screens) are in [`docs/readme/`](docs/readme/) (`image2.png`, `image4.png`–`image6.png`, `image9.png`, `image14.png`).
+| ![Budgeting](docs/readme/Budgeting.png) | ![Saving goals](docs/readme/SavingGoals.png) | ![Reports](docs/readme/Reports.png) |
 
 ## Features
 
