@@ -2,29 +2,23 @@
 
 FinSafe is a cross-platform personal finance app built with Flutter. It helps students track income and expenses, see balances and spending patterns, set budgets and savings goals, generate shareable PDF reports, and get contextual guidance—including optional bank linking (Plaid), receipt capture, and an in-app assistant (Fineas).
 
-FinSafe
+![FinSafe](docs/readme/image1.png)
 
 ## Screenshots
 
-
 | Welcome | Home | Transactions |
-| ------- | ---- | ------------ |
-| Welcome | Home | Transactions |
-
-
+| :---: | :---: | :---: |
+| ![Welcome](docs/readme/image3.png) | ![Home](docs/readme/image7.png) | ![Transactions](docs/readme/image8.png) |
 
 | Reports | Analysis | Spending & trends |
-| ------- | -------- | ----------------- |
-| Reports | Analysis | Spending          |
-
-
+| :---: | :---: | :---: |
+| ![Reports](docs/readme/image12.png) | ![Analysis](docs/readme/image10.png) | ![Spending](docs/readme/image11.png) |
 
 | Budgets & goals | Fineas assistant | Settings |
-| --------------- | ---------------- | -------- |
-| Budgets         | Fineas           | Settings |
+| :---: | :---: | :---: |
+| ![Budgets](docs/readme/image13.png) | ![Fineas](docs/readme/image15.png) | ![Settings](docs/readme/image16.png) |
 
-
-Additional UI captures (authentication, alternate transaction and budget views, and supplementary screens) are in `[docs/readme/](docs/readme/)` (`image2.png`, `image4.png`–`image6.png`, `image9.png`, `image14.png`).
+Additional UI captures (authentication, alternate transaction and budget views, and supplementary screens) are in [`docs/readme/`](docs/readme/) (`image2.png`, `image4.png`–`image6.png`, `image9.png`, `image14.png`).
 
 ## Features
 
@@ -40,9 +34,9 @@ Additional UI captures (authentication, alternate transaction and budget views, 
 
 ## Tech stack
 
-- **Framework:** Flutter, Dart SDK `^3.6.1` (package name in `[pubspec.yaml](pubspec.yaml)`: `fbla_finance`).
+- **Framework:** Flutter, Dart SDK `^3.6.1` (package name in [`pubspec.yaml`](pubspec.yaml): `fbla_finance`).
 - **Backend & data:** Firebase (Core, Authentication, Cloud Firestore, Storage, Cloud Functions).
-- **Notable packages:** `fl_chart`, Syncfusion charts/PDF, `plaid_flutter`, Google ML Kit (document scanner, text recognition), `receipt_reader`, `pdf` / `share_plus` / `open_file`, `tutorial_coach_mark`, `google_sign_in`, and others as listed in `[pubspec.yaml](pubspec.yaml)`.
+- **Notable packages:** `fl_chart`, Syncfusion charts/PDF, `plaid_flutter`, Google ML Kit (document scanner, text recognition), `receipt_reader`, `pdf` / `share_plus` / `open_file`, `tutorial_coach_mark`, `google_sign_in`, and others as listed in [`pubspec.yaml`](pubspec.yaml).
 
 ## Getting started
 
@@ -55,22 +49,27 @@ Additional UI captures (authentication, alternate transaction and budget views, 
 
 1. Clone the repository and open the project root.
 2. Install dependencies:
-  ```bash
+
+   ```bash
    flutter pub get
-  ```
-3. **Firebase:** Ensure `[lib/firebase_options.dart](lib/firebase_options.dart)` matches your Firebase project (e.g. via [FlutterFire CLI](https://firebase.google.com/docs/flutter/setup)). Deploy or configure Firestore rules, Storage, and Cloud Functions as needed for your environment.
-4. **Third-party services:** Configure **Plaid** (and any other API keys) in your own secure config or Firebase/backend setup. The repo does not ship production secrets (`[lib/backend/api_key.dart](lib/backend/api_key.dart)` is a placeholder).
+   ```
+
+3. **Firebase:** Ensure [`lib/firebase_options.dart`](lib/firebase_options.dart) matches your Firebase project (e.g. via [FlutterFire CLI](https://firebase.google.com/docs/flutter/setup)). Deploy or configure Firestore rules, Storage, and Cloud Functions as needed for your environment.
+
+4. **Third-party services:** Configure **Plaid** (and any other API keys) in your own secure config or Firebase/backend setup. The repo does not ship production secrets ([`lib/backend/api_key.dart`](lib/backend/api_key.dart) is a placeholder).
+
 5. Run the app:
-  ```bash
+
+   ```bash
    flutter run
-  ```
+   ```
 
 ## Project structure
 
-- `[lib/pages/](lib/pages/)` — Screens (home, transactions, reports, settings, Plaid, receipt scanner, chat, etc.).
-- `[lib/backend/](lib/backend/)` — Auth, Firebase-related helpers, PDF utilities, theming, and shared backend-oriented code.
-- `[lib/util/](lib/util/)` — Reusable UI widgets and helpers.
-- `[functions/](functions/)` — Firebase Cloud Functions (Node), if used for server-side logic.
+- [`lib/pages/`](lib/pages/) — Screens (home, transactions, reports, settings, Plaid, receipt scanner, chat, etc.).
+- [`lib/backend/`](lib/backend/) — Auth, Firebase-related helpers, PDF utilities, theming, and shared backend-oriented code.
+- [`lib/util/`](lib/util/) — Reusable UI widgets and helpers.
+- [`functions/`](functions/) — Firebase Cloud Functions (Node), if used for server-side logic.
 
 ## Contributors
 
