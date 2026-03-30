@@ -43,3 +43,9 @@ app.*.map.json
 /android/app/debug
 /android/app/profile
 /android/app/release
+
+# Python virtual environments (do not commit — skews GitHub language stats)
+functions/venv/
+**/venv/
+.env
+.venv/

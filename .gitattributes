@@ -1,2 +1,5 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+
+# Exclude local Python env from language statistics if ever re-added to the tree
+functions/venv/** linguist-vendored
